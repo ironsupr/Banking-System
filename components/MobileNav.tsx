@@ -35,13 +35,13 @@ const MobileNav = ({ user }: MobileNavProps) => {
             className="cursor-pointer flex items-center gap-1 px-4"
           >
             <Image
-              src="/icons/logo.svg"
-              width={34}
-              height={34}
-              alt="Foti Banking logo"
+              src="/icons/logo.png"
+              width={40}
+              height={40}
+              alt="Shauryan logo"
             />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-              Foti Banking
+              Shauryan
             </h1>
           </Link>
           <div className="mobilenav-sheet">

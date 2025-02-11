@@ -16,13 +16,13 @@ const Sidebar = ({ user }: SiderbarProps) => {
       <nav className="flex flex-col gap-4">
         <Link href="/" className="mb-12 cursor-pointer flex items-center gap-2">
           <Image
-            src="/icons/logo.svg"
+            src="/icons/logo.png"
             width={34}
             height={34}
-            alt="Foti Banking logo"
-            className="size-[24px] max-xl:size-14"
+            alt="Shauryan logo"
+            className="size-[40px] max-xl:size-40"
           />
-          <h1 className="sidebar-logo">Foti Banking</h1>
+          <h1 className="sidebar-logo">Shauryan</h1>
         </Link>
 
         {sidebarLinks.map((link) => {

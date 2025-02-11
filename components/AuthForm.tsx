@@ -87,13 +87,13 @@ const AuthForm = ({ type }: { type: string }) => {
       <header className="flex flex-col gap-5 md:gap-8">
         <Link href="/" className="cursor-pointer flex items-center gap-1">
           <Image
-            src="/icons/logo.svg"
-            width={34}
-            height={34}
-            alt="Foti Banking logo"
+            src="/icons/logo.png"
+            width={50}
+            height={50}
+            alt="Shauryan logo"
           />
           <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
-            Foti Banking
+            Shauryan
           </h1>
         </Link>
 

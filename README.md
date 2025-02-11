@@ -1,4 +1,4 @@
-## Foti Banking App
+## Shauryan App
 
 ## <a name="table">Table of Contents</a>
 
@@ -10,7 +10,7 @@
 
 ## <a name="introduction">Introduction</a>
 
-Built with Next.js, Foti Banking is a full stack financial platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
+Built with Next.js, Shauryan is a full stack financial platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
 
 Active URL: [foti-banking-app.vercel.app](foti-banking-app.vercel.app)
 
