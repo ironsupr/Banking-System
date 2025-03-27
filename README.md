@@ -12,17 +12,17 @@
 
 Built with Next.js, Shauryan is a full stack financial platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
 
-Active URL: [foti-banking-app.vercel.app](foti-banking-app.vercel.app)
+<!-- Active URL: [foti-banking-app.vercel.app](foti-banking-app.vercel.app) -->
 
 <br/>
 "
-<img src='https://github.com/fotinh0/foti-banking-app/assets/67170897/b7af02ab-5383-45f9-bd11-d1b164a38240' width="800px">
+<!-- <img src='https://github.com/fotinh0/foti-banking-app/assets/67170897/b7af02ab-5383-45f9-bd11-d1b164a38240' width="800px"> -->
 
 <br/>
 
 # NOTE:
 
-To check out the application with a test account, you can use the following credentials -> email: rayred@fotibanking.com, pw: abcd1234
+To check out the application with a test account, you can use the following credentials -> email: king1@gmail.com, pw: test1234
 
 If you want to create you own account without connecting your bank information, you can use Plaid's test credentials to add dummy bank accounts to your profile: 
 - Step 1: Click 'Continue' and select Chase as the institution.
@@ -78,8 +78,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/fotinh0/foti-banking-app.git
-cd foti-banking-app
+git clone https://github.com/ironsupr/Banking-System.git
+cd Banking-System
 ```
 
 **Installation**
