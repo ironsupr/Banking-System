@@ -16,7 +16,7 @@ Built with Next.js, Shauryan is a full stack financial platform that connects to
 
 <br/>
 "
-<!-- <img src='https://github.com/fotinh0/foti-banking-app/assets/67170897/b7af02ab-5383-45f9-bd11-d1b164a38240' width="800px"> -->
+<!-- <img src='https://github.com/ironsupr/Banking-System/assets/67170897/b7af02ab-5383-45f9-bd11-d1b164a38240' width="800px"> -->
 
 <br/>
 
