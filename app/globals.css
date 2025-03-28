@@ -198,11 +198,11 @@
   }
 
   .transactions-account {
-    @apply flex flex-col justify-between gap-4 rounded-lg border-y bg-bank-gradient px-4 py-5 md:flex-row;
+    @apply flex flex-col justify-between gap-4 rounded-lg border-y bg-buttonColor px-4 py-5 md:flex-row; /* Changed from bg-bank-gradient to bg-buttonColor */
   }
-
+  
   .transactions-account-balance {
-    @apply flex-center flex-col gap-2 rounded-md bg-blue-25/20 px-4 py-2 text-white;
+    @apply flex-center flex-col gap-2 rounded-md bg-buttonColor px-4 py-2 text-white; /* Changed from bg-blue-25/20 to bg-buttonColor */
   }
 
   .header-box {
@@ -210,7 +210,7 @@
   }
 
   .header-box-title {
-    @apply text-24 lg:text-30 font-semibold text-gray-900;
+    @apply text-24 lg:text-30 font-semibold text-buttonColor;
   }
 
   .header-box-subtext {
@@ -293,7 +293,7 @@
   }
 
   .form-link {
-    @apply text-14 cursor-pointer font-medium text-bankGradient;
+    @apply text-14 cursor-pointer font-medium text-buttonColor;
   }
 
   /* Payment Transfer */
@@ -366,7 +366,11 @@
   }
 
   .sidebar-link {
-    @apply flex gap-3 items-center py-1 md:p-3 2xl:p-4 rounded-lg justify-center xl:justify-start;
+    @apply flex gap-3 items-center py-1 md:p-3 2xl:p-4 rounded-lg justify-center xl:justify-start bg-white text-black-2; /* Default: white background, dark text */
+  }
+
+  .connect-bank-btn {
+    @apply flex gap-3 items-center py-1 md:p-3 2xl:p-4 rounded-lg justify-center xl:justify-start bg-white text-black-2; /* Default: white background, dark text */
   }
 
   .sidebar-label {

@@ -25,6 +25,7 @@ const config = {
         },
         buttonColor: "#253745",
         bankGradient: "#86A789",
+        activeLinkColor: "#FFCB97",
         indigo: {
           500: "#6172F3",
           700: "#3538CD",
