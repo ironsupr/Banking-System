@@ -21,8 +21,9 @@ const config = {
     extend: {
       colors: {
         fill: {
-          1: "rgba(255, 255, 255, 0.10)",
+          1: "#253745",
         },
+        buttonColor: "#253745",
         bankGradient: "#86A789",
         indigo: {
           500: "#6172F3",
