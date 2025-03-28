@@ -52,8 +52,13 @@ const config = {
           700: "#175CD3",
           900: "#194185",
         },
+<<<<<<< Updated upstream:tailwind.config.js
         sky: {
           1: "#F3F9FF",
+=======
+        green: {
+          1: "rgb(243, 248, 253)",
+>>>>>>> Stashed changes:tailwind.config.ts
         },
         black: {
           1: "#00214F",
