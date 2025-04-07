@@ -37,11 +37,16 @@ export const getUserInfo = async ({ userId }: getUserInfoProps) => {
   }
 };
 
+import { AppwriteException } from "node-appwrite"; // Ensure this is imported
+
 export const signIn = async ({ email, password }: signInProps) => {
   try {
     const { account } = await createAdminClient();
+
+    // Create session
     const session = await account.createEmailPasswordSession(email, password);
 
+    // Set session cookie
     cookies().set("appwrite-session", session.secret, {
       path: "/",
       httpOnly: true,
@@ -49,13 +54,25 @@ export const signIn = async ({ email, password }: signInProps) => {
       secure: true,
     });
 
+    // Fetch user info
     const user = await getUserInfo({ userId: session.userId });
 
     return parseStringify(user);
-  } catch (error) {
-    console.error("Error", error);
+  } catch (error: unknown) {
+    console.error("Sign-in error:", error);
+
+    let errorMessage = "An unexpected error occurred.";
+
+    if (error instanceof AppwriteException) {
+      errorMessage = typeof error.response === "string"
+        ? error.response
+        : error.message;
+    }
+
+    return { error: errorMessage };
   }
 };
+
 
 export const signUp = async ({ password, ...userData }: SignUpParams) => {
   const { email, firstName, lastName } = userData;
