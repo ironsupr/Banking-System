@@ -33,10 +33,9 @@ const ChatbotWidget = () => {
       }
     };
 
-    // Start polling every 3 seconds
+    // Poll every 5 minutes
     interval = setInterval(checkUserChange, 5 * 60 * 1000);
 
-    // Clean up on unmount
     return () => clearInterval(interval);
   }, [userId]);
 
@@ -117,6 +116,12 @@ const ChatbotWidget = () => {
               ref={textareaRef}
               value={input}
               onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                  e.preventDefault();
+                  sendMessage();
+                }
+              }}
               rows={1}
               className="flex-1 border px-2 py-1 rounded-l-md text-sm resize-none overflow-hidden"
               placeholder="Ask me anything..."
