@@ -327,7 +327,7 @@
   }
 
   .payment-transfer_btn {
-    @apply text-14 w-full bg-buttonColor font-semibold text-white shadow-form !important; /* Updated to buttonColor */
+    @apply text-14 w-full bg-lime-600 font-semibold text-white shadow-form hover:bg-lime-700 !important;
   }
 
   /* Root Layout */
