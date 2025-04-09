@@ -34,9 +34,17 @@ const config = {
           25: "#F6FEF9",
           50: "#ECFDF3",
           100: "#D1FADF",
-          600: "#039855",
-          700: "#027A48",
-          900: "#054F31",
+          600: "#32CD32",
+          700: "#32CD32",
+          900: "#32CD32",
+        },
+        lime: {
+          25: "#F6FEF9",
+          50: "#ECFDF3",
+          100: "#D1FADF",
+          600: "#32CD32",
+          700: "#32CD32",
+          900: "#32CD32",
         },
         pink: {
           25: "#FEF6FB",
@@ -72,10 +80,10 @@ const config = {
         },
       },
       backgroundImage: {
-        "bank-gradient": "linear-gradient(90deg, #4F6F52 0%, #739072 100%)",
+        "bank-gradient": "linear-gradient(90deg, #32CD32 0%, #90EE90 100%)",
         "gradient-mesh": "url('/icons/gradient-mesh.svg')",
         "bank-green-gradient":
-          "linear-gradient(90deg, #01797A 0%, #489399 100%)",
+          "linear-gradient(90deg, #32CD32 0%, #90EE90 100%)",
       },
       boxShadow: {
         form: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",

@@ -64,15 +64,15 @@ export const topCategoryStyles = {
     icon: "/icons/monitor.svg",
   },
   Travel: {
-    bg: "bg-success-25",
-    circleBg: "bg-success-100",
+    bg: "bg-lime-25",
+    circleBg: "bg-lime-100",
     text: {
-      main: "text-success-900",
-      count: "text-success-700",
+      main: "text-lime-900",
+      count: "text-lime-700",
     },
     progress: {
-      bg: "bg-success-100",
-      indicator: "bg-success-700",
+      bg: "bg-lime-100",
+      indicator: "bg-lime-700",
     },
     icon: "/icons/coins.svg",
   },
@@ -99,15 +99,15 @@ export const transactionCategoryStyles = {
     chipBackgroundColor: "bg-inherit",
   },
   Payment: {
-    borderColor: "border-success-600",
-    backgroundColor: "bg-green-600",
-    textColor: "text-success-700",
+    borderColor: "border-lime-600",
+    backgroundColor: "bg-lime-600",
+    textColor: "text-lime-700",
     chipBackgroundColor: "bg-inherit",
   },
   "Bank Fees": {
-    borderColor: "border-success-600",
-    backgroundColor: "bg-green-600",
-    textColor: "text-success-700",
+    borderColor: "border-lime-600",
+    backgroundColor: "bg-lime-600",
+    textColor: "text-lime-700",
     chipBackgroundColor: "bg-inherit",
   },
   Transfer: {
@@ -123,9 +123,9 @@ export const transactionCategoryStyles = {
     chipBackgroundColor: "bg-[#F2F4F7]",
   },
   Success: {
-    borderColor: "border-[#12B76A]",
-    backgroundColor: "bg-[#12B76A]",
-    textColor: "text-[#027A48]",
+    borderColor: "border-[#32CD32]",
+    backgroundColor: "bg-[#32CD32]",
+    textColor: "text-[#32CD32]",
     chipBackgroundColor: "bg-[#ECFDF3]",
   },
   Travel: {
